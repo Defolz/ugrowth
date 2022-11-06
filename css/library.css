@@ -1,0 +1,53 @@
+.button {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  text-align: center; }
+
+.library-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding-bottom: 52px; }
+
+.soft-skill-block {
+  width: 378.64px;
+  height: 215.65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #A49EFF 0%, #9590F0 34.9%, #7A75D5 100%);
+  border-radius: 60px; }
+  .soft-skill-block p {
+    font-weight: 700;
+    font-size: 27.75px;
+    line-height: 34px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-align: center; }
+
+.disabled-badge {
+  background: #A4A4A4; }
+
+.description-image {
+  top: -111px;
+  background-image: url("./../img/library/desc.svg"); }
+
+#soft-img {
+  background-image: url("./../img/library/soft.svg"); }
+
+@media screen and (max-width: 640px) {
+  .library-container {
+    justify-content: center;
+    align-items: center; }
+
+  .soft-skill-block {
+    width: 254px;
+    height: 144.66px;
+    border-radius: 60px; }
+    .soft-skill-block p {
+      font-size: 18px;
+      line-height: 22px; } }
+
+/*# sourceMappingURL=library.css.map */
